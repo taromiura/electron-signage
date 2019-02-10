@@ -35,7 +35,7 @@ app.on("ready", () => {
 
   const mainWindow = createWindow("main", {
     
-    kiosk:true
+//    kiosk:true
     
   });
   
