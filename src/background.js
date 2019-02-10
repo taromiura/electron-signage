@@ -34,9 +34,10 @@ app.on("ready", () => {
   setApplicationMenu();
 
   const mainWindow = createWindow("main", {
-  });
-
+    
     kiosk:true
+    
+  });
   
   mainWindow.setMenu(null)
 
