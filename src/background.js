@@ -37,7 +37,7 @@ app.on("ready", () => {
    kiosk: true 
   });
 
-  mainWindow.setMenu(null)
+  mainWindow.setMenu()
 
   mainWindow.loadURL(
     url.format({
