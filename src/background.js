@@ -36,7 +36,9 @@ app.on("ready", () => {
   const mainWindow = createWindow("main", {
   });
 
-  mainWindow.setMenu()
+    kiosk:true
+  
+  mainWindow.setMenu(null)
 
   mainWindow.loadURL(
     url.format({
