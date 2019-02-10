@@ -31,6 +31,7 @@
     "release": "npm test && webpack --config=build/webpack.app.config.js --env=production && electron-builder"
   },
   "dependencies": {
+    "ajv": "^6.8.1",
     "fs-jetpack": "^2.1.0"
   },
   "devDependencies": {
@@ -40,7 +41,7 @@
     "babel-plugin-transform-object-rest-spread": "^7.0.0-beta.3",
     "chai": "^4.1.0",
     "css-loader": "^1.0.0",
-    "electron": "2.0.2",
+    "electron": "^3.0.12",
     "electron-builder": "^20.15.1",
     "electron-mocha": "^6.0.4",
     "friendly-errors-webpack-plugin": "^1.7.0",
